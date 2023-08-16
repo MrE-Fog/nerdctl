@@ -14,7 +14,7 @@ require (
 	github.com/containerd/containerd v1.7.3
 	github.com/containerd/continuity v0.4.1
 	github.com/containerd/go-cni v1.1.9
-	github.com/containerd/imgcrypt v1.1.7
+	github.com/containerd/imgcrypt v1.1.8
 	github.com/containerd/nydus-snapshotter v0.11.3
 	github.com/containerd/stargz-snapshotter v0.14.3
 	github.com/containerd/stargz-snapshotter/estargz v0.14.3
@@ -62,7 +62,11 @@ require (
 	gotest.tools/v3 v3.5.0
 )
 
-require golang.org/x/exp v0.0.0-20230713183714-613f0c0eb8a1 // indirect
+require (
+	github.com/bmizerany/assert v0.0.0-20160611221934-b7ed37b82869 // indirect
+	github.com/go-jose/go-jose/v3 v3.0.0 // indirect
+	golang.org/x/exp v0.0.0-20230713183714-613f0c0eb8a1 // indirect
+)
 
 require (
 	github.com/AdaLogics/go-fuzz-headers v0.0.0-20230106234847-43070de90fa1 // indirect
@@ -72,7 +76,7 @@ require (
 	github.com/containerd/fifo v1.1.0 // indirect
 	github.com/containerd/ttrpc v1.2.2 // indirect
 	github.com/containerd/typeurl v1.0.3-0.20220422153119-7f6e6d160d67 // indirect
-	github.com/containers/ocicrypt v1.1.7 // indirect
+	github.com/containers/ocicrypt v1.1.8 // indirect
 	github.com/distribution/distribution/v3 v3.0.0-20230214150026-36d8c594d7aa // indirect
 	github.com/djherbis/times v1.5.0 // indirect
 	github.com/docker/docker-credential-helpers v0.7.0 // indirect
@@ -129,6 +133,5 @@ require (
 	google.golang.org/genproto v0.0.0-20230410155749-daa745c078e1 // indirect
 	google.golang.org/grpc v1.56.2 // indirect
 	google.golang.org/protobuf v1.31.0 // indirect
-	gopkg.in/square/go-jose.v2 v2.5.1 // indirect
 	lukechampine.com/blake3 v1.1.7 // indirect
 )
